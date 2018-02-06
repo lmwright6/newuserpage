@@ -6,13 +6,23 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+
+        <body>
+          <input type = "text" name= "email" placeholder = "Enter email"/> <br />
+          <input type = "text" name= "firstname" placeholder = "Enter First Name"/> <br/>
+          <input type = "text" name= "lastname" placeholder = "Enter Last Name"/> <br/>
+          <input type = "text" name= "password" placeholder = "Enter Password"/><br/>
+          <input type = "text" name= "password2" placeholder = "Re-type Password"/><br/>
+          <select>
+            <option value="Band/artist">Band/artist</option>
+            <option value="Venue">Venue</option>
+
+          </select>
+        </body>
+
+
+
+
       </div>
     );
   }
