@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import NewUser from './components/NewUser';
 
-class App extends React.Component {
 
-  constructor(props) {
+
+class NewUser extends React.Component {
+
+constructor(props) {
     super(props);
     this.state = {emailInput: ''}
 
@@ -16,11 +15,12 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="App">
-       <NewUser/>
+      <div>
+        Email: 
+       <input className="emailInput" type="text" value={this.state.emailInput} onChange={this.handleEmailInput}  />
       </div>
     );
   }
 }
 
-export default App;
+export default NewUser;
