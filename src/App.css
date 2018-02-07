@@ -4,13 +4,12 @@ html{
 
 .App {
   text-align: center;
-<<<<<<< HEAD
+
    background-color: #606060;
    color: #77D353;
-=======
+
   background: #606060;
   -webkit-text-fill-color: #77D353;
->>>>>>> ac64adcddb908da6eb9a80ef5984b88ca064b825
 }
 
 
@@ -50,6 +49,9 @@ text-align: center
 :-moz-placeholder { /* Firefox 18- */
   text-align: center
 }
+
+
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
