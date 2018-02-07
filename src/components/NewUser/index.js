@@ -19,7 +19,7 @@ handleEmailInput(event) {
 this.setState({emailInput: event.target.value})
 }
 handlefirstNameInput(event){
-this.setState({lastNameInput: event.target.value})
+this.setState({firstNameInput: event.target.value})
 }
 handlelastNameInput(event){
 this.setState({lastNameInput: event.target.value})
@@ -37,6 +37,7 @@ clicked(){
 
 render() {
 return (
+<<<<<<< HEAD
 <div className="App">
 Email: 
 <input className="emailInput" type="text" id="textBox1" value={this.state.emailInput} onChange={this.handleEmailInput} /> <br />
@@ -50,6 +51,14 @@ Re-Enter Password:
 <input className="reEnterInput" type="text" id="textBox1" value={this.state.reEnterInput} onChange={this.reEnterInput} /> <br />
 <button onClick={this.clicked}> Create User</button>
 
+=======
+<div className="App"> 
+<input className="emailInput" type="text" placeholder="Email" value={this.state.emailInput} onChange={this.handleEmailInput} /><br />
+<input className="firstNameInput" type="text" placeholder="First Name" value={this.state.firstNameInput} onChange={this.handlefirstNameInput} /><br />
+<input className="lastNameInput" type="text" placeholder="Last Name" value={this.state.lastNameInput} onChange={this.handlelastNameInput} /><br />
+<input className="passwordInput" type="text" placeholder="Paswword" value={this.state.passwordInput} onChange={this.handlepasswordInput} /><br />
+<input className="reEnterInput" type="text" placeholder="Re-enter Password" value={this.state.reEnterInput} onChange={this.reEnterInput} /><br />
+>>>>>>> ac64adcddb908da6eb9a80ef5984b88ca064b825
 </div>
 );
 }
