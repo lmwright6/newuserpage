@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NewUser from './components/NewUser';
 
 class App extends React.Component {
+
 
   constructor(props) {
     super(props);
@@ -31,6 +33,12 @@ class App extends React.Component {
 
         First Name:
         <input className = "firstNameInput" type = "text" value = {this.state.firstNameInput} onChange = {this.handleFirstNameInput} />
+
+  render() {
+    return (
+      <div className="App">
+       <NewUser/>
+>>>>>>> a7555efc5d8bae1ed42b6bb736672b68ce43bcfc
       </div>
     );
   }
