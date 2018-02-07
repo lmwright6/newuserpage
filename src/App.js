@@ -7,9 +7,12 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-       <NewUser/>
-      </div>
+        <div className="App">
+          <div>
+          <h1>New User</h1>
+          </div>
+          <NewUser/>
+        </div>
     );
   }
 }

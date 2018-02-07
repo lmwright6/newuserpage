@@ -16,7 +16,7 @@ handleEmailInput(event) {
 this.setState({emailInput: event.target.value})
 }
 handlefirstNameInput(event){
-this.setState({lastNameInput: event.target.value})
+this.setState({firstNameInput: event.target.value})
 }
 handlelastNameInput(event){
 this.setState({lastNameInput: event.target.value})
@@ -29,17 +29,12 @@ this.setState({reEnterInput: event.target.value})
 }
 render() {
 return (
-<div className="App">
-Email: 
-<input className="emailInput" type="text" value={this.state.emailInput} onChange={this.handleEmailInput} />
-FirstName:
-<input className="firstNameInput" type="text" value={this.state.firstNameInput} onChange={this.handlefirstNameInput} />
-LastName:
-<input className="lastNameInput" type="text" value={this.state.lastNameInput} onChange={this.handlelastNameInput} />
-Password:
-<input className="passwordInput" type="text" value={this.state.passwordInput} onChange={this.handlepasswordInput} />
-Re-Enter Password:
-<input className="reEnterInput" type="text" value={this.state.reEnterInput} onChange={this.reEnterInput} />
+<div className="App"> 
+<input className="emailInput" type="text" placeholder="Email" value={this.state.emailInput} onChange={this.handleEmailInput} /><br />
+<input className="firstNameInput" type="text" placeholder="First Name" value={this.state.firstNameInput} onChange={this.handlefirstNameInput} /><br />
+<input className="lastNameInput" type="text" placeholder="Last Name" value={this.state.lastNameInput} onChange={this.handlelastNameInput} /><br />
+<input className="passwordInput" type="text" placeholder="Paswword" value={this.state.passwordInput} onChange={this.handlepasswordInput} /><br />
+<input className="reEnterInput" type="text" placeholder="Re-enter Password" value={this.state.reEnterInput} onChange={this.reEnterInput} /><br />
 </div>
 );
 }
