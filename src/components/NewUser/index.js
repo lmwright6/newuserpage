@@ -47,7 +47,8 @@ return (
 <option value = "band"> Band </option>
 <option value = "Venue"> Venue </option>
 </select> <br />
-<button className="submitButton" type="submit">Create User</button>
+<button className="submitButton" type="submit">Next</button><br />
+<button className="backButton" type="submit">Back</button><br />
 </div>
 );
 }

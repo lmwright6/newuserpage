@@ -37,6 +37,16 @@ input{
 -moz-border-radius: 50px;
 border-radius: 50px;
 background: white;
+text-align: center;
+}
+
+select{
+  margin-bottom: 15pt;
+  width: 20%;
+  -webkit-border-radius: 50px;
+  -moz-border-readius:50px;
+  border-radius: 50px;
+  text-align: center;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -54,6 +64,26 @@ color: #77D353;
 :-moz-placeholder { /* Firefox 18- */
   text-align: center;
   color: #77D353;
+}
+
+.submitButton{
+  margin-bottom: 15pt;
+  width: 20%;
+  -webkit-border-radius: 50px;
+  -moz-border-readius:50px;
+  border-radius: 50px;
+  background: #77D353;
+  -webkit-text-fill-color: #606060;
+}
+
+.backButton{
+  margin-bottom: 15pt;
+  width: 20%;
+  -webkit-border-radius: 50px;
+  -moz-border-readius:50px;
+  border-radius: 50px;
+  background: #606060;
+  -webkit-text-fill-color: #77D353;
 }
 
 @keyframes App-logo-spin {
