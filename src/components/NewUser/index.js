@@ -11,6 +11,10 @@ this.state = {lastNameInput: ''}
 this.state = {passwordInput: ''}
 this.state = {reEnterInput:''}
 this.handleEmailInput = this.handleEmailInput.bind(this);
+this.handlefirstNameInput = this.handlefirstNameInput.bind(this);
+this.handlelastNameInput = this.handlelastNameInput.bind(this);
+this.handlepasswordInputInput = this.handlepasswordInputInput.bind(this);
+this.handlereEnterInput = this.handlereEnterInput.bind(this);
 }
 handleEmailInput(event) {
 this.setState({emailInput: event.target.value})
