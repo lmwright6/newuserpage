@@ -13,7 +13,7 @@ this.state = {reEnterInput:''}
 this.handleEmailInput = this.handleEmailInput.bind(this);
 this.handlefirstNameInput = this.handlefirstNameInput.bind(this);
 this.handlelastNameInput = this.handlelastNameInput.bind(this);
-this.handlepasswordInputInput = this.handlepasswordInput.bind(this);
+this.handlepasswordInput = this.handlepasswordInput.bind(this);
 this.handlereEnterInput = this.handlereEnterInput.bind(this);
 }
 handleEmailInput(event) {
