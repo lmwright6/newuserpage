@@ -47,6 +47,7 @@ return (
 <input className="lastNameInput" type="text" placeholder="Last Name" value={this.state.lastNameInput} onChange={this.handlelastNameInput} /><br />
 <input className="passwordInput" type="text" placeholder="Paswword" value={this.state.passwordInput} onChange={this.handlepasswordInput} /><br />
 <input className="reEnterInput" type="text" placeholder="Re-enter Password" value={this.state.reEnterInput} onChange={this.reEnterInput} /><br />
+
 <button onClick={this.clicked}> Create User</button>
 
 </div>
